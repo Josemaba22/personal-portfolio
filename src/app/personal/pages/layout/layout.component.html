@@ -1,9 +1,19 @@
-<app-personal-nav-page></app-personal-nav-page>
-<main class="layout-main flexrow">
-    <div>
-        <app-personal-main-page></app-personal-main-page>
-        <app-personal-summary-page></app-personal-summary-page>
-        <app-personal-experience-page></app-personal-experience-page>
-        <app-personal-contact-page></app-personal-contact-page>
-    </div>
+<main>
+
+    <section class="flexcol">
+        <app-personal-main-page id="mainpage"></app-personal-main-page>
+    </section>
+
+    <section class="flexcol">
+        <app-personal-summary-page id="summarypage"></app-personal-summary-page>
+    </section>
+
+    <section class="flexcol">
+        <app-personal-experience-page id="experiencepage"></app-personal-experience-page>
+    </section>
+
+    <section class="flexcol">
+        <app-personal-contact-page id="contactpage"></app-personal-contact-page>
+    </section>
+
 </main>

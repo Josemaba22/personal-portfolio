@@ -13,5 +13,5 @@ import { PersonalModule } from './personal/personal.module';
     ]
 })
 export class AppComponent {
-  title = 'personal-porfolio';
+  title = 'personal-portfolio';
 }

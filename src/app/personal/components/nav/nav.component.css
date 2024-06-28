@@ -2,18 +2,26 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #0ad;
-    width: 350px;
+    width: 450px;
     height: 80px;
 }
 
 li {
     margin: 10px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
     padding: 13px;
 }
 
 li:hover {
     border-radius: 10px;
     background-color: #0bf;
+    cursor: pointer;
 }
 
 header {
@@ -21,4 +29,7 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position: sticky;
+    top: 0px;
+    height: 100px;
 }

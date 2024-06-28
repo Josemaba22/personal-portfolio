@@ -6,6 +6,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { SummaryComponent } from './pages/summary/summary.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -19,7 +20,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     ContactComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     MainComponent,

@@ -3,15 +3,19 @@
     <nav class="flexrow">
         <ul class="flexrow">
             <li>
-            <a routerLink="home" routerLinkActive="active">Summary</a>
+            <a  routerLinkActive="active" href="#summarypage">Summary</a>
             </li>
             <li>
-            <a routerLink="about" routerLinkActive="active">Experience</a>
+            <a routerLinkActive="active" href="#experiencepage">Experience</a>
             </li>
             <li>
-            <a routerLink="contact" routerLinkActive="active">Contact</a>
+            <a  routerLinkActive="active" href="#contactpage">Contact</a>
+            </li>
+            <li>
+            <a routerLink="projects" routerLinkActive="active">Projects</a>
             </li>
         </ul>
     </nav>
 
 </header>
+<router-outlet></router-outlet>
