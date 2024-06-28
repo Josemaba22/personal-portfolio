@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #0ad;
+    width: 350px;
+    height: 80px;
+}
+
+li {
+    margin: 10px;
+    padding: 13px;
+}
+
+li:hover {
+    border-radius: 10px;
+    background-color: #0bf;
+}
+
+header {
+    background-color: #0ad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
